@@ -3,12 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class ProductController extends Controller
 {
     //
     function index()
     {
-        return "Bem-vindo a pagina de produtos";
+        $data= Product::all();
+        return view('product',['products'=>$data]);
+    }
+    function details($id)
+    {
+        return Product::find($id);
     }
 }
