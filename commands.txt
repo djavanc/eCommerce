@@ -1,0 +1,23 @@
+echo "# eCommerce" >> README.md
+git init
+git add README.md
+git commit -m "Header, footer and login, bootstrap setup"
+git branch -M main
+git remote add origin https://github.com/djavanc/eCommerce.git
+git push -u origin main
+
+echo "# eCommerce" >> README.md
+git init
+git add .
+git commit -m "Header, footer and login, bootstrap setup"
+git branch -M main
+git remote add origin https://github.com/djavanc/eCommerce.git
+git push -u origin mai
+
+echo "# eCommerce" >> README.md
+git init
+git add .
+git commit -m "Header, footer and login contents"
+git branch -M main
+git remote add origin https://github.com/djavanc/eCommerce.git
+git push -u origin main
